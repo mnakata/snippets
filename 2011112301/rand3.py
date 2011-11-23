@@ -21,7 +21,7 @@ def rand(a, b):
         while i < n:
             j += binrand() * i
             i <<= 1
-        if j <= n:
+        if j < n:
             return j + a
 
 if __name__ == '__main__':
